@@ -1,0 +1,544 @@
+{
+    "SPDXID": "SPDXRef-python-wsgi",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-07-24T22:01:01.679Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Python 3.10.12",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-python-wsgi"
+    ],
+    "documentNamespace": "python-wsgi-3.10.12",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-python-wsgi",
+            "name": "Python",
+            "versionInfo": "3.10.12",
+            "downloadLocation": "https://www.python.org/ftp/python/3.10.12/Python-3.10.12.tgz",
+            "licenseConcluded": "PSF-2.0",
+            "licenseDeclared": "PSF-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:python-wsgi:python-wsgi:3.10.12:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/python-wsgi@3.10.12?arch=amd64"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Application-ace32df0b6bdbf7",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "name": "python-pkg",
+            "sourceInfo": "Python"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-50c183b57045f37d",
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/distlib@0.3.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-ae7563671981f815"
+            ],
+            "licenseConcluded": "PSF-2.0",
+            "licenseDeclared": "PSF-2.0",
+            "name": "distlib",
+            "versionInfo": "0.3.7"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-531651a51c09393c",
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/filelock@3.12.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-59064e80a9f53abd"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "filelock",
+            "versionInfo": "3.12.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6d4862f9eceaa7ac",
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/virtualenv@20.24.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-76c235e43af66a32"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "virtualenv",
+            "versionInfo": "20.24.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a55a35b6ab3c78c9",
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/platformdirs@3.9.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-ce7fba4601f04758"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "platformdirs",
+            "versionInfo": "3.9.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a75802320324fe79",
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/example@21.12",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-cda34e3ae831c197"
+            ],
+            "licenseConcluded": "Apache-Software-License",
+            "licenseDeclared": "Apache-Software-License",
+            "name": "example",
+            "versionInfo": "21.12"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bc49bf648e49ab93",
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/setuptools@65.7.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-16c0278544a13c51"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "setuptools",
+            "versionInfo": "65.7.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bd099a8547a17fa",
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pip@21.3.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-ee92a6045f0220a9"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pip",
+            "versionInfo": "21.3.1"
+        },
+        {
+            "SPDXID": "SPDXRef-mod_wsgi",
+            "name": "mod_wsgi",
+            "versionInfo": "4.9.4",
+            "downloadLocation": "https://github.com/GrahamDumpleton/mod_wsgi/archive/4.9.4.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:modwsgi:mod_wsgi:4.9.4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/mod_wsgi@4.9.4?arch=amd64"
+                }
+            ]
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-File-16c0278544a13c51",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "129af8b77c18845b5bb3a6ce0c4fee2609dc2a6b"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/setuptools-65.7.0-py3.10.egg/EGG-INFO/PKG-INFO"
+        },
+        {
+            "SPDXID": "SPDXRef-File-59064e80a9f53abd",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a0e17970c3261a3f158412b70c10b844d8a9c6bd"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/filelock-3.12.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-76c235e43af66a32",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6943a3579db1c96e8d9f91b22145d2b9ea9d69e2"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/virtualenv-20.24.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ae7563671981f815",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1959e6e3556b73b2974f9c4d7bdcaf93e650cea1"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/distlib-0.3.7.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-cda34e3ae831c197",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a4b5583f80e2ebbec44e063f83975816ba15cb5c"
+                }
+            ],
+            "fileName": "lib/python3.10/test/test_importlib/data/example-21.12-py3.6.egg"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ce7fba4601f04758",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "20966c2f39facac4bc292e04f587a2bd9f4c256c"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/platformdirs-3.9.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ee92a6045f0220a9",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "648abcb00897851073adfc29c5fa07d694d94afa"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/pip-21.3.1-py3.10.egg/EGG-INFO/PKG-INFO"
+        },
+        {
+            "SPDXID": "SPDXRef-File-16c0278544a13c51",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "129af8b77c18845b5bb3a6ce0c4fee2609dc2a6b"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/setuptools-65.7.0-py3.10.egg/EGG-INFO/PKG-INFO"
+        },
+        {
+            "SPDXID": "SPDXRef-File-59064e80a9f53abd",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a0e17970c3261a3f158412b70c10b844d8a9c6bd"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/filelock-3.12.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-76c235e43af66a32",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6943a3579db1c96e8d9f91b22145d2b9ea9d69e2"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/virtualenv-20.24.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ae7563671981f815",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1959e6e3556b73b2974f9c4d7bdcaf93e650cea1"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/distlib-0.3.7.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-cda34e3ae831c197",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a4b5583f80e2ebbec44e063f83975816ba15cb5c"
+                }
+            ],
+            "fileName": "lib/python3.10/test/test_importlib/data/example-21.12-py3.6.egg"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ce7fba4601f04758",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "20966c2f39facac4bc292e04f587a2bd9f4c256c"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/platformdirs-3.9.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ee92a6045f0220a9",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "648abcb00897851073adfc29c5fa07d694d94afa"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/pip-21.3.1-py3.10.egg/EGG-INFO/PKG-INFO"
+        },
+        {
+            "SPDXID": "SPDXRef-File-16c0278544a13c51",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "129af8b77c18845b5bb3a6ce0c4fee2609dc2a6b"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/setuptools-65.7.0-py3.10.egg/EGG-INFO/PKG-INFO"
+        },
+        {
+            "SPDXID": "SPDXRef-File-59064e80a9f53abd",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a0e17970c3261a3f158412b70c10b844d8a9c6bd"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/filelock-3.12.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-76c235e43af66a32",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6943a3579db1c96e8d9f91b22145d2b9ea9d69e2"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/virtualenv-20.24.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ae7563671981f815",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1959e6e3556b73b2974f9c4d7bdcaf93e650cea1"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/distlib-0.3.7.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-cda34e3ae831c197",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a4b5583f80e2ebbec44e063f83975816ba15cb5c"
+                }
+            ],
+            "fileName": "lib/python3.10/test/test_importlib/data/example-21.12-py3.6.egg"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ce7fba4601f04758",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "20966c2f39facac4bc292e04f587a2bd9f4c256c"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/platformdirs-3.9.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ee92a6045f0220a9",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "648abcb00897851073adfc29c5fa07d694d94afa"
+                }
+            ],
+            "fileName": "lib/python3.10/site-packages/pip-21.3.1-py3.10.egg/EGG-INFO/PKG-INFO"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-python-wsgi",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-bc49bf648e49ab93",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-6d4862f9eceaa7ac",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-50c183b57045f37d",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-531651a51c09393c",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-bd099a8547a17fa",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-a55a35b6ab3c78c9",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-a75802320324fe79",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "spdxElementId": "SPDXRef-python-wsgi",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-setuptools"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-531651a51c09393c",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-bd099a8547a17fa",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-a55a35b6ab3c78c9",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-bc49bf648e49ab93",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-6d4862f9eceaa7ac",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-50c183b57045f37d",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-a75802320324fe79",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "spdxElementId": "SPDXRef-python-wsgi",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-pip"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-50c183b57045f37d",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-531651a51c09393c",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-bd099a8547a17fa",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-a55a35b6ab3c78c9",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-bc49bf648e49ab93",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-6d4862f9eceaa7ac",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-a75802320324fe79",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ace32df0b6bdbf7"
+        },
+        {
+            "spdxElementId": "SPDXRef-python-wsgi",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-virtualenv"
+        },
+        {
+            "spdxElementId": "SPDXRef-python-wsgi",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-mod_wsgi"
+        }
+    ]
+}

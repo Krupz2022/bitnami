@@ -1,0 +1,210 @@
+{
+    "SPDXID": "SPDXRef-wait-for-port",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-07-25T02:01:32.878Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for wait-for-port 1.0.6",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-wait-for-port"
+    ],
+    "documentNamespace": "wait-for-port-1.0.6",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-wait-for-port",
+            "name": "wait-for-port",
+            "versionInfo": "1.0.6",
+            "downloadLocation": "https://github.com/bitnami/wait-for-port/archive/refs/tags/v1.0.6.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:wait-for-port:wait-for-port:1.0.6:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/wait-for-port@1.0.6?arch=amd64"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1dc872819f6f1495",
+            "attributionTexts": [
+                "PkgID: github.com/pmezard/go-difflib@v1.0.0"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/pmezard/go-difflib@1.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "github.com/pmezard/go-difflib",
+            "versionInfo": "1.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-213bcc83eaf42ca6",
+            "attributionTexts": [
+                "PkgID: golang.org/x/sys@v0.2.0"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/sys@0.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "golang.org/x/sys",
+            "versionInfo": "0.2.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-23fca5c7a06ebbf3",
+            "attributionTexts": [
+                "PkgID: gopkg.in/yaml.v3@v3.0.1"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@3.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND MIT",
+            "licenseDeclared": "Apache-2.0 AND MIT",
+            "name": "gopkg.in/yaml.v3",
+            "versionInfo": "3.0.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3f597208e00ff2f1",
+            "attributionTexts": [
+                "PkgID: github.com/jessevdk/go-flags@v1.5.0"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/jessevdk/go-flags@1.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "github.com/jessevdk/go-flags",
+            "versionInfo": "1.5.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-746285f2bf31a4b8",
+            "attributionTexts": [
+                "PkgID: github.com/juamedgod/cliassert@v0.0.0-20180320011200-425256f2bb0b"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/juamedgod/cliassert@0.0.0-20180320011200-425256f2bb0b",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "github.com/juamedgod/cliassert",
+            "versionInfo": "0.0.0-20180320011200-425256f2bb0b"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b1b0894df3b18d14",
+            "attributionTexts": [
+                "PkgID: github.com/davecgh/go-spew@v1.1.1"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/davecgh/go-spew@1.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "ISC",
+            "licenseDeclared": "ISC",
+            "name": "github.com/davecgh/go-spew",
+            "versionInfo": "1.1.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-fa337c211c507e9",
+            "attributionTexts": [
+                "PkgID: github.com/stretchr/testify@v1.7.5"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/stretchr/testify@1.7.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "github.com/stretchr/testify",
+            "versionInfo": "1.7.5"
+        }
+    ],
+    "files": [],
+    "relationships": [
+        {
+            "relatedSpdxElement": "SPDXRef-Package-b1b0894df3b18d14",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-3f597208e00ff2f1",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-746285f2bf31a4b8",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-1dc872819f6f1495",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-fa337c211c507e9",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-213bcc83eaf42ca6",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-23fca5c7a06ebbf3",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        }
+    ]
+}

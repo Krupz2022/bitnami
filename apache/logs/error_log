@@ -1,0 +1,9 @@
+[Thu Aug 24 13:28:30.167432 2023] [mpm_event:notice] [pid 1779:tid 139992125381632] AH00489: Apache/2.4.57 (Unix) OpenSSL/1.1.1n mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Thu Aug 24 13:28:30.167523 2023] [core:notice] [pid 1779:tid 139992125381632] AH00094: Command line: '/opt/bitnami/apache/bin/httpd -f /opt/bitnami/apache/conf/httpd.conf'
+[Thu Aug 24 13:29:10.233828 2023] [wsgi:error] [pid 1782:tid 139991972071168] [remote 127.0.0.1:52934] Updating Dashboard for frappe
+[Thu Aug 24 13:29:10.236160 2023] [wsgi:error] [pid 1782:tid 139991972071168] [remote 127.0.0.1:52934] Updating Dashboard for erpnext
+[Thu Aug 24 13:29:10.693101 2023] [mpm_event:notice] [pid 1779:tid 139992125381632] AH00491: caught SIGTERM, shutting down
+[Thu Aug 24 13:29:32.045378 2023] [mpm_event:notice] [pid 2572:tid 139646234242048] AH00489: Apache/2.4.57 (Unix) OpenSSL/1.1.1n mod_wsgi/4.9.4 Python/3.10 configured -- resuming normal operations
+[Thu Aug 24 13:29:32.045478 2023] [core:notice] [pid 2572:tid 139646234242048] AH00094: Command line: '/opt/bitnami/apache/bin/httpd -f /opt/bitnami/apache/conf/httpd.conf'
+[Thu Aug 24 14:04:02.554199 2023] [core:error] [pid 3307:tid 139645123606272] [client 92.196.222.131:40710] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Thu Aug 24 14:04:07.450020 2023] [core:error] [pid 3307:tid 139645644510976] [client 92.196.222.131:40972] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)

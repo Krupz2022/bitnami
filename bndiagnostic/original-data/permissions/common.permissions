@@ -1,0 +1,91 @@
+common:
+total 56
+drwxr-xr-x  6 root root  4096 Jul 24 23:17 .
+drwxr-xr-x 16 root root  4096 Aug  5 08:12 ..
+drwxr-xr-x  2 root root  4096 Jul 24 19:31 bin
+drwxr-xr-x  3 root root  4096 Jul 25 19:03 include
+drwxr-xr-x  3 root root  4096 Jul 25 19:03 lib
+drwxr-xr-x  2 root root  4096 Jul 24 23:17 licenses
+-rw-r--r--  1 root root  8674 Jul 24 17:07 .spdx-ini-file.spdx
+-rw-r--r--  1 root root 11671 Jul 24 22:35 .spdx-render-template.spdx
+-rw-r--r--  1 root root  7810 Jul 25 02:02 .spdx-wait-for-port.spdx
+
+common/bin:
+total 6536
+drwxr-xr-x 2 root root    4096 Jul 24 19:31 .
+drwxr-xr-x 6 root root    4096 Jul 24 23:17 ..
+-rwxr-xr-x 1 root root 1921024 Jul 24 17:07 ini-file
+-rwxr-xr-x 1 root root 2670592 Jul 24 22:34 render-template
+-rwxr-xr-x 1 root root 2093056 Jul 25 02:02 wait-for-port
+
+common/include:
+total 12
+drwxr-xr-x 3 root root 4096 Jul 25 19:03 .
+drwxr-xr-x 6 root root 4096 Jul 24 23:17 ..
+drwxr-xr-x 4 root root 4096 Jul 25 19:03 modsecurity
+
+common/include/modsecurity:
+total 152
+drwxr-xr-x 4 root root  4096 Jul 25 19:03 .
+drwxr-xr-x 3 root root  4096 Jul 25 19:03 ..
+drwxr-xr-x 2 root root  4096 Jul 25 19:03 actions
+-rw-r--r-- 1 root root  2881 Jul 25 18:41 anchored_set_variable.h
+-rw-r--r-- 1 root root  3686 Jul 25 18:41 anchored_set_variable_translation_proxy.h
+-rw-r--r-- 1 root root  2095 Jul 25 18:41 anchored_variable.h
+-rw-r--r-- 1 root root  5702 Jul 25 18:41 audit_log.h
+drwxr-xr-x 2 root root  4096 Jul 25 19:03 collection
+-rw-r--r-- 1 root root  1572 Jul 25 18:41 debug_log.h
+-rw-r--r-- 1 root root  1656 Jul 25 18:41 intervention.h
+-rw-r--r-- 1 root root  8565 Jul 25 18:41 modsecurity.h
+-rw-r--r-- 1 root root  3149 Jul 25 18:41 rule.h
+-rw-r--r-- 1 root root  2239 Jul 25 18:41 rule_marker.h
+-rw-r--r-- 1 root root  6634 Jul 25 18:41 rule_message.h
+-rw-r--r-- 1 root root  2934 Jul 25 18:41 rules_exceptions.h
+-rw-r--r-- 1 root root  2861 Jul 25 18:41 rules.h
+-rw-r--r-- 1 root root  2648 Jul 25 18:41 rules_set.h
+-rw-r--r-- 1 root root  1378 Jul 25 18:41 rules_set_phases.h
+-rw-r--r-- 1 root root 14590 Jul 25 18:41 rules_set_properties.h
+-rw-r--r-- 1 root root  1797 Jul 25 18:41 rule_unconditional.h
+-rw-r--r-- 1 root root  5934 Jul 25 18:41 rule_with_actions.h
+-rw-r--r-- 1 root root  2317 Jul 25 18:41 rule_with_operator.h
+-rw-r--r-- 1 root root 23858 Jul 25 18:41 transaction.h
+-rw-r--r-- 1 root root  1227 Jul 25 18:41 variable_origin.h
+-rw-r--r-- 1 root root  2848 Jul 25 18:41 variable_value.h
+
+common/include/modsecurity/actions:
+total 12
+drwxr-xr-x 2 root root 4096 Jul 25 19:03 .
+drwxr-xr-x 4 root root 4096 Jul 25 19:03 ..
+-rw-r--r-- 1 root root 4066 Jul 25 18:41 action.h
+
+common/include/modsecurity/collection:
+total 20
+drwxr-xr-x 2 root root 4096 Jul 25 19:03 .
+drwxr-xr-x 4 root root 4096 Jul 25 19:03 ..
+-rw-r--r-- 1 root root 6288 Jul 25 18:41 collection.h
+-rw-r--r-- 1 root root 1917 Jul 25 18:41 collections.h
+
+common/lib:
+total 2388
+drwxr-xr-x 3 root root    4096 Jul 25 19:03 .
+drwxr-xr-x 6 root root    4096 Jul 24 23:17 ..
+lrwxrwxrwx 1 root root      24 Jul 25 18:41 libmodsecurity.so -> libmodsecurity.so.3.0.10
+lrwxrwxrwx 1 root root      24 Jul 25 18:41 libmodsecurity.so.3 -> libmodsecurity.so.3.0.10
+-rwxr-xr-x 1 root root 2430320 Jul 25 18:41 libmodsecurity.so.3.0.10
+drwxr-xr-x 2 root root    4096 Jul 25 19:03 pkgconfig
+
+common/lib/pkgconfig:
+total 12
+drwxr-xr-x 2 root root 4096 Jul 25 19:03 .
+drwxr-xr-x 3 root root 4096 Jul 25 19:03 ..
+-rw-r--r-- 1 root root  286 Jul 25 18:41 modsecurity.pc
+
+common/licenses:
+total 36
+drwxr-xr-x 2 root root  4096 Jul 24 23:17 .
+drwxr-xr-x 6 root root  4096 Jul 24 23:17 ..
+-rw-r--r-- 1 root root    53 Jul 24 17:07 ini-file-1.4.5.txt
+-rw-r--r-- 1 root root 11357 Jul 25 18:41 modsecurity-3.0.10.txt
+-rw-r--r-- 1 root root    53 Jul 24 22:34 render-template-1.0.5.txt
+-rw-r--r-- 1 root root  1074 Jul 24 22:04 virtualenv-20.24.2.txt
+-rw-r--r-- 1 root root    53 Jul 25 02:02 wait-for-port-1.0.6.txt

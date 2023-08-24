@@ -1,0 +1,54 @@
+2023-08-24 13:25:33 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 1366
+2023-08-24 13:25:33 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-08-24 13:25:33 0 [Note] InnoDB: Number of transaction pools: 1
+2023-08-24 13:25:33 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-08-24 13:25:33 0 [Note] InnoDB: Using Linux native AIO
+2023-08-24 13:25:33 0 [Note] InnoDB: Initializing buffer pool, total size = 16.000MiB, chunk size = 1.000MiB
+2023-08-24 13:25:33 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-08-24 13:25:33 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2023-08-24 13:25:33 0 [Note] InnoDB: 128 rollback segments are active.
+2023-08-24 13:25:33 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-08-24 13:25:33 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-08-24 13:25:33 0 [Note] InnoDB: log sequence number 46606; transaction id 14
+2023-08-24 13:25:33 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-08-24 13:25:33 0 [Note] Server socket created on IP: '127.0.0.1'.
+2023-08-24 13:25:33 0 [Note] InnoDB: Loading buffer pool(s) from /bitnami/mariadb/data/ib_buffer_pool
+2023-08-24 13:25:33 0 [Warning] 'user' entry 'root@ip-172-31-36-154' ignored in --skip-name-resolve mode.
+2023-08-24 13:25:33 0 [Warning] 'user' entry '@ip-172-31-36-154' ignored in --skip-name-resolve mode.
+2023-08-24 13:25:33 0 [Warning] 'proxies_priv' entry '@% root@ip-172-31-36-154' ignored in --skip-name-resolve mode.
+2023-08-24 13:25:33 0 [Note] InnoDB: Buffer pool(s) load completed at 230824 13:25:33
+2023-08-24 13:25:33 0 [Note] /opt/bitnami/mariadb/sbin/mysqld: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/opt/bitnami/mariadb/tmp/mysql.sock'  port: 3306  Source distribution
+2023-08-24 13:25:35 5 [Warning] 'proxies_priv' entry '@% root@ip-172-31-36-154' ignored in --skip-name-resolve mode.
+2023-08-24 13:25:35 0 [Note] /opt/bitnami/mariadb/sbin/mysqld (initiated by: unknown): Normal shutdown
+2023-08-24 13:25:35 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-08-24 13:25:35 0 [Note] InnoDB: Starting shutdown...
+2023-08-24 13:25:35 0 [Note] InnoDB: Dumping buffer pool(s) to /bitnami/mariadb/data/ib_buffer_pool
+2023-08-24 13:25:35 0 [Note] InnoDB: Restricted to 249 pages due to innodb_buf_pool_dump_pct=25
+2023-08-24 13:25:35 0 [Note] InnoDB: Buffer pool(s) dump completed at 230824 13:25:35
+2023-08-24 13:25:35 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-08-24 13:25:35 0 [Note] InnoDB: Shutdown completed; log sequence number 46606; transaction id 15
+2023-08-24 13:25:35 0 [Note] /opt/bitnami/mariadb/sbin/mysqld: Shutdown complete
+
+2023-08-24 13:25:38 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 1459
+2023-08-24 13:25:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-08-24 13:25:38 0 [Note] InnoDB: Number of transaction pools: 1
+2023-08-24 13:25:38 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-08-24 13:25:38 0 [Note] InnoDB: Using Linux native AIO
+2023-08-24 13:25:38 0 [Note] InnoDB: Initializing buffer pool, total size = 16.000MiB, chunk size = 1.000MiB
+2023-08-24 13:25:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-08-24 13:25:38 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2023-08-24 13:25:38 0 [Note] InnoDB: 128 rollback segments are active.
+2023-08-24 13:25:38 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-08-24 13:25:38 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-08-24 13:25:38 0 [Note] InnoDB: log sequence number 46606; transaction id 14
+2023-08-24 13:25:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-08-24 13:25:38 0 [Note] Server socket created on IP: '127.0.0.1'.
+2023-08-24 13:25:38 0 [Note] InnoDB: Loading buffer pool(s) from /bitnami/mariadb/data/ib_buffer_pool
+2023-08-24 13:25:38 0 [Warning] 'proxies_priv' entry '@% root@ip-172-31-36-154' ignored in --skip-name-resolve mode.
+2023-08-24 13:25:38 0 [Note] /opt/bitnami/mariadb/sbin/mysqld: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/opt/bitnami/mariadb/tmp/mysql.sock'  port: 3306  Source distribution
+2023-08-24 13:25:38 0 [Note] InnoDB: Buffer pool(s) load completed at 230824 13:25:38
+2023-08-24 13:26:08 4 [Warning] 'proxies_priv' entry '@% root@ip-172-31-36-154' ignored in --skip-name-resolve mode.
+2023-08-24 13:26:08 5 [Warning] Aborted connection 5 to db: 'bitnami_erpnext' user: 'bitnami_erpnext' host: '127.0.0.1' (Got an error reading communication packets)
+2023-08-24 13:26:53 7 [Warning] Aborted connection 7 to db: 'bitnami_erpnext' user: 'bitnami_erpnext' host: '127.0.0.1' (Got an error reading communication packets)

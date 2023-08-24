@@ -1,0 +1,41 @@
+{
+    "SPDXID": "SPDXRef-bncert",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-07-24T15:35:52.400Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Bncert Tool 1.1.1",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-bncert"
+    ],
+    "documentNamespace": "bncert-1.1.1",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-bncert",
+            "name": "Bncert Tool",
+            "versionInfo": "1.1.1",
+            "downloadLocation": "https://github.com/bitnami/bncert/archive/refs/tags/v1.1.1.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:bncert:bncert:1.1.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/bncert@1.1.1?arch=amd64"
+                }
+            ]
+        }
+    ],
+    "files": [],
+    "relationships": []
+}

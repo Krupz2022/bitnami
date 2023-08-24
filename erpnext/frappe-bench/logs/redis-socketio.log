@@ -1,0 +1,26 @@
+1557:C 24 Aug 2023 13:25:47.315 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1557:C 24 Aug 2023 13:25:47.315 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=1557, just started
+1557:C 24 Aug 2023 13:25:47.315 # Configuration loaded
+1557:M 24 Aug 2023 13:25:47.315 * monotonic clock: POSIX clock_gettime
+1557:M 24 Aug 2023 13:25:47.316 * Running mode=standalone, port=12000.
+1557:M 24 Aug 2023 13:25:47.316 # Server initialized
+1557:M 24 Aug 2023 13:25:47.316 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+1557:M 24 Aug 2023 13:25:47.316 * Ready to accept connections
+1557:M 24 Aug 2023 13:29:21.767 # User requested shutdown...
+1557:M 24 Aug 2023 13:29:21.767 * Saving the final RDB snapshot before exiting.
+1557:M 24 Aug 2023 13:29:21.790 * DB saved on disk
+1557:M 24 Aug 2023 13:29:21.790 * Removing the pid file.
+1557:M 24 Aug 2023 13:29:21.790 # Redis is now ready to exit, bye bye...
+2492:C 24 Aug 2023 13:29:21.844 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2492:C 24 Aug 2023 13:29:21.844 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=2492, just started
+2492:C 24 Aug 2023 13:29:21.844 # Configuration loaded
+2492:M 24 Aug 2023 13:29:21.844 * monotonic clock: POSIX clock_gettime
+2492:M 24 Aug 2023 13:29:21.845 * Running mode=standalone, port=12000.
+2492:M 24 Aug 2023 13:29:21.845 # Server initialized
+2492:M 24 Aug 2023 13:29:21.845 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+2492:M 24 Aug 2023 13:29:21.845 * Loading RDB produced by version 7.0.12
+2492:M 24 Aug 2023 13:29:21.845 * RDB age 0 seconds
+2492:M 24 Aug 2023 13:29:21.845 * RDB memory usage when created 0.88 Mb
+2492:M 24 Aug 2023 13:29:21.845 * Done loading RDB, keys loaded: 0, keys expired: 0.
+2492:M 24 Aug 2023 13:29:21.845 * DB loaded from disk: 0.000 seconds
+2492:M 24 Aug 2023 13:29:21.845 * Ready to accept connections

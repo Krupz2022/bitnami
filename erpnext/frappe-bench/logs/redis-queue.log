@@ -1,0 +1,61 @@
+1586:C 24 Aug 2023 13:25:52.345 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1586:C 24 Aug 2023 13:25:52.345 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=1586, just started
+1586:C 24 Aug 2023 13:25:52.345 # Configuration loaded
+1586:M 24 Aug 2023 13:25:52.345 * monotonic clock: POSIX clock_gettime
+1586:M 24 Aug 2023 13:25:52.346 * Running mode=standalone, port=11000.
+1586:M 24 Aug 2023 13:25:52.346 # Server initialized
+1586:M 24 Aug 2023 13:25:52.346 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+1586:M 24 Aug 2023 13:25:52.346 * Ready to accept connections
+1586:M 24 Aug 2023 13:29:26.867 # User requested shutdown...
+1586:M 24 Aug 2023 13:29:26.867 * Saving the final RDB snapshot before exiting.
+1586:M 24 Aug 2023 13:29:26.872 * DB saved on disk
+1586:M 24 Aug 2023 13:29:26.872 * Removing the pid file.
+1586:M 24 Aug 2023 13:29:26.872 # Redis is now ready to exit, bye bye...
+2545:C 24 Aug 2023 13:29:26.925 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2545:C 24 Aug 2023 13:29:26.925 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=2545, just started
+2545:C 24 Aug 2023 13:29:26.925 # Configuration loaded
+2545:M 24 Aug 2023 13:29:26.926 * monotonic clock: POSIX clock_gettime
+2545:M 24 Aug 2023 13:29:26.926 * Running mode=standalone, port=11000.
+2545:M 24 Aug 2023 13:29:26.926 # Server initialized
+2545:M 24 Aug 2023 13:29:26.926 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+2545:M 24 Aug 2023 13:29:26.927 * Loading RDB produced by version 7.0.12
+2545:M 24 Aug 2023 13:29:26.927 * RDB age 0 seconds
+2545:M 24 Aug 2023 13:29:26.927 * RDB memory usage when created 1.03 Mb
+2545:M 24 Aug 2023 13:29:26.927 * Done loading RDB, keys loaded: 6, keys expired: 0.
+2545:M 24 Aug 2023 13:29:26.927 * DB loaded from disk: 0.000 seconds
+2545:M 24 Aug 2023 13:29:26.927 * Ready to accept connections
+2545:M 24 Aug 2023 13:34:27.062 * 100 changes in 300 seconds. Saving...
+2545:M 24 Aug 2023 13:34:27.063 * Background saving started by pid 3541
+3541:C 24 Aug 2023 13:34:27.071 * DB saved on disk
+3541:C 24 Aug 2023 13:34:27.071 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2545:M 24 Aug 2023 13:34:27.164 * Background saving terminated with success
+2545:M 24 Aug 2023 13:39:28.018 * 100 changes in 300 seconds. Saving...
+2545:M 24 Aug 2023 13:39:28.019 * Background saving started by pid 3579
+3579:C 24 Aug 2023 13:39:28.026 * DB saved on disk
+3579:C 24 Aug 2023 13:39:28.026 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2545:M 24 Aug 2023 13:39:28.119 * Background saving terminated with success
+2545:M 24 Aug 2023 13:44:29.083 * 100 changes in 300 seconds. Saving...
+2545:M 24 Aug 2023 13:44:29.083 * Background saving started by pid 3590
+3590:C 24 Aug 2023 13:44:29.089 * DB saved on disk
+3590:C 24 Aug 2023 13:44:29.089 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2545:M 24 Aug 2023 13:44:29.183 * Background saving terminated with success
+2545:M 24 Aug 2023 13:49:30.036 * 100 changes in 300 seconds. Saving...
+2545:M 24 Aug 2023 13:49:30.036 * Background saving started by pid 3635
+3635:C 24 Aug 2023 13:49:30.043 * DB saved on disk
+3635:C 24 Aug 2023 13:49:30.043 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2545:M 24 Aug 2023 13:49:30.136 * Background saving terminated with success
+2545:M 24 Aug 2023 13:54:31.091 * 100 changes in 300 seconds. Saving...
+2545:M 24 Aug 2023 13:54:31.091 * Background saving started by pid 3651
+3651:C 24 Aug 2023 13:54:31.097 * DB saved on disk
+3651:C 24 Aug 2023 13:54:31.097 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2545:M 24 Aug 2023 13:54:31.191 * Background saving terminated with success
+2545:M 24 Aug 2023 13:59:32.009 * 100 changes in 300 seconds. Saving...
+2545:M 24 Aug 2023 13:59:32.010 * Background saving started by pid 3672
+3672:C 24 Aug 2023 13:59:32.023 * DB saved on disk
+3672:C 24 Aug 2023 13:59:32.023 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2545:M 24 Aug 2023 13:59:32.111 * Background saving terminated with success
+2545:M 24 Aug 2023 14:04:33.015 * 100 changes in 300 seconds. Saving...
+2545:M 24 Aug 2023 14:04:33.018 * Background saving started by pid 3790
+3790:C 24 Aug 2023 14:04:33.038 * DB saved on disk
+3790:C 24 Aug 2023 14:04:33.038 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2545:M 24 Aug 2023 14:04:33.118 * Background saving terminated with success

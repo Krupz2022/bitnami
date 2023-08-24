@@ -1,0 +1,234 @@
+{
+    "SPDXID": "SPDXRef-ini-file",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-07-24T17:06:57.770Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for ini-file 1.4.5",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-ini-file"
+    ],
+    "documentNamespace": "ini-file-1.4.5",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-ini-file",
+            "name": "ini-file",
+            "versionInfo": "1.4.5",
+            "downloadLocation": "https://github.com/bitnami/ini-file/archive/refs/tags/v1.4.5.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:ini-file:ini-file:1.4.5:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/ini-file@1.4.5?arch=amd64"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1dc872819f6f1495",
+            "attributionTexts": [
+                "PkgID: github.com/pmezard/go-difflib@v1.0.0"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/pmezard/go-difflib@1.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "github.com/pmezard/go-difflib",
+            "versionInfo": "1.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-213bcc83eaf42ca6",
+            "attributionTexts": [
+                "PkgID: golang.org/x/sys@v0.2.0"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/sys@0.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "golang.org/x/sys",
+            "versionInfo": "0.2.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-352f157e7839a3e4",
+            "attributionTexts": [
+                "PkgID: github.com/bitnami/gonit@v0.2.0"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/bitnami/gonit@0.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "name": "github.com/bitnami/gonit",
+            "versionInfo": "0.2.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3939054c557214e0",
+            "attributionTexts": [
+                "PkgID: github.com/stretchr/testify@v1.2.2"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/stretchr/testify@1.2.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "github.com/stretchr/testify",
+            "versionInfo": "1.2.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3f597208e00ff2f1",
+            "attributionTexts": [
+                "PkgID: github.com/jessevdk/go-flags@v1.5.0"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/jessevdk/go-flags@1.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "github.com/jessevdk/go-flags",
+            "versionInfo": "1.5.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-746285f2bf31a4b8",
+            "attributionTexts": [
+                "PkgID: github.com/juamedgod/cliassert@v0.0.0-20180320011200-425256f2bb0b"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/juamedgod/cliassert@0.0.0-20180320011200-425256f2bb0b",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "github.com/juamedgod/cliassert",
+            "versionInfo": "0.0.0-20180320011200-425256f2bb0b"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8292903f4e920d2",
+            "attributionTexts": [
+                "PkgID: github.com/go-ini/ini@v1.67.0"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/go-ini/ini@1.67.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/go-ini/ini",
+            "versionInfo": "1.67.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b1b0894df3b18d14",
+            "attributionTexts": [
+                "PkgID: github.com/davecgh/go-spew@v1.1.1"
+            ],
+            "downloadLocation": "NONE",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/davecgh/go-spew@1.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "ISC",
+            "licenseDeclared": "ISC",
+            "name": "github.com/davecgh/go-spew",
+            "versionInfo": "1.1.1"
+        }
+    ],
+    "files": [],
+    "relationships": [
+        {
+            "relatedSpdxElement": "SPDXRef-Package-352f157e7839a3e4",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-b1b0894df3b18d14",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-8292903f4e920d2",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-3f597208e00ff2f1",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-746285f2bf31a4b8",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-1dc872819f6f1495",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-3939054c557214e0",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        },
+        {
+            "relatedSpdxElement": "SPDXRef-Package-213bcc83eaf42ca6",
+            "relationshipType": "CONTAINS",
+            "spdxElementId": "SPDXRef-Application-ee084b72decaa988"
+        }
+    ]
+}

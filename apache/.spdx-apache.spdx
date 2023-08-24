@@ -1,0 +1,167 @@
+{
+    "SPDXID": "SPDXRef-apache",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-07-24T15:28:58.308Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Apache 2.4.54",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-apache"
+    ],
+    "documentNamespace": "apache-2.4.54",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-apr",
+            "name": "Apache Portable Runtime (APR)",
+            "versionInfo": "1.7.4",
+            "downloadLocation": "http://apache.uvigo.es/apr/apr-1.7.4.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:apache:portable_runtime:1.7.4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/apr@1.7.4?arch=amd64"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-apr-util",
+            "name": "Apache utilities (APR)",
+            "versionInfo": "1.6.3",
+            "downloadLocation": "http://apache.uvigo.es/apr/apr-util-1.6.3.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:apache:apr-util:1.6.3:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/apr-util@1.6.3?arch=amd64"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-apache",
+            "name": "Apache",
+            "versionInfo": "2.4.54",
+            "downloadLocation": "https://downloads.apache.org/httpd/httpd-2.4.54.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:apache:http_server:2.4.54:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/apache@2.4.54?arch=amd64"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-modsecurity2",
+            "name": "ModSecurity2",
+            "versionInfo": "2.9.7",
+            "downloadLocation": "https://github.com/SpiderLabs/ModSecurity/releases/download/v2.9.7/modsecurity-2.9.7.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:trustwave:modsecurity:2.9.7:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/modsecurity2@2.9.7?arch=amd64"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-modsecurity",
+            "name": "ModSecurity",
+            "versionInfo": "3.0.9",
+            "downloadLocation": "https://github.com/SpiderLabs/ModSecurity/releases/download/v3.0.9/modsecurity-v3.0.9.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:trustwave:modsecurity:3.0.9:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/modsecurity@3.0.9?arch=amd64"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-modsecurity-apache",
+            "name": "ModSecurity Apache Connector",
+            "versionInfo": "0.20210819.0",
+            "downloadLocation": "https://github.com/SpiderLabs/ModSecurity-apache/archive/master.zip",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/modsecurity-apache@0.20210819.0?arch=amd64"
+                }
+            ]
+        }
+    ],
+    "files": [],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-apache",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-apr"
+        },
+        {
+            "spdxElementId": "SPDXRef-apache",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-apr-util"
+        },
+        {
+            "spdxElementId": "SPDXRef-apache",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-modsecurity2"
+        },
+        {
+            "spdxElementId": "SPDXRef-apache",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-modsecurity"
+        },
+        {
+            "spdxElementId": "SPDXRef-apache",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-modsecurity-apache"
+        }
+    ]
+}
